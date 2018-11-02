@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import Navbar from './Navbar.jsx';
 
 class App extends Component {
   constructor(props) {
@@ -9,10 +10,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        <button type="button" className="btn btn-primary">
-          {' '}
-          Samuel Shih{' '}
-        </button>
+        <div className="Navbar">
+          <Navbar />
+        </div>
       </div>
     );
   }
